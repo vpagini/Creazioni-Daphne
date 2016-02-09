@@ -360,6 +360,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
     margin-top: 40px;
     padding-bottom: 20px;
     border-bottom: 2px solid #9d426b;
+    background-color: #eaeaea;
 }
 
 .work:hover img {
