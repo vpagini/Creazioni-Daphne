@@ -40,6 +40,10 @@
     color: #8d3b60 !important;
 }
 
+.services-half-width-text h3 {
+    padding-top: 10px !important;
+}
+
 .services-full-width-text {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
@@ -55,4 +59,8 @@
 
 .green h3 {
     color: darkgreen !important;
+}
+
+.gardening-img {
+    margin-bottom: 20px;
 }
