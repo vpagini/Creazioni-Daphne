@@ -33,7 +33,7 @@
 }
 
 .work {
-    background-color: #F2E8DE !important;
+    background-color: #d4c6d5 !important;
 }
 
 .services-full-width-text h3 {
@@ -70,7 +70,7 @@
     padding: 7px 25px;
     margin-top: 5px;
     margin-bottom: 10px;
-    background: #9d426b;
+    background: #b295b1;
     color: #fff;
     text-decoration: none;
 }
@@ -98,7 +98,10 @@
 }
 
 .resizer img { 
-    width: 100%;
+    min-height: 35vh !important;
+    min-width: 100% !important;
+    max-width: 36vh !important;
+    min-width: 121% !important;
 }
 
 
@@ -113,4 +116,16 @@
 }
 .page-title-container p{
     font-size: 18px !important;
+}
+
+.footer-box-text, .footer-copyright, .work p {
+    color: black;
+}
+
+.footer-box-text h1, .footer-box-text h2, .footer-box-text h3, .footer-box-text h4, .footer-copyright h1, .footer-copyright h2, .footer-copyright h3, .footer-copyright h4, .work h1,  .work h2, .work h3, .work h4, {
+    color: black !important;
+}
+
+h1, h2, h3, h4, h5{
+    text-shadow: none !important;
 }
