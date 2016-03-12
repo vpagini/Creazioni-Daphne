@@ -100,3 +100,17 @@
 .resizer img { 
     width: 100%;
 }
+
+
+
+.intro {
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.page-title-container h1{
+    font-size: 30px !important;
+}
+.page-title-container p{
+    font-size: 18px !important;
+}
