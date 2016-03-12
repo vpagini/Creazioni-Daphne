@@ -520,7 +520,7 @@ footer {
 .page-title-container p {
     display: inline;
     margin-left: 5px;
-    font-size: 18px;
+    font-size: 16px !important;
     font-style: normal;
     vertical-align: middle;
 }
