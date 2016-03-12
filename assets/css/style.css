@@ -30,6 +30,15 @@ body {
 /*    font-family: 'Quicksand', sans-serif; */
     color: black;
     font-size: 15px;
+
+    outline: none !important;
+}
+
+a:hover, a:active, a:focus{
+   outline:none !important;
+}
+input::-moz-focus-inner {
+   border: 0;
 }
 
 .violet { color: #b295b1; }
@@ -140,16 +149,16 @@ a.big-link-3:active {
 
 ul.navbar-nav {
 	font-size: 16px;
-	color: black;
+	color: #545454;
 	text-transform: uppercase;
 }
 
-ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-top: 5px solid #fff; color: black; }
-ul.navbar-nav li.active a { background: #f8f8f8; border-color: #b295b1; color: black; }
+ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-top: 5px solid #fff; color: #545454; }
+ul.navbar-nav li.active a { background: #f8f8f8; border-color: #b295b1; color: #545454; }
 
 ul.navbar-nav li a:hover, ul.navbar-nav li a:focus { background: #b295b1; border-color: #b295b1; color: #fff; outline: 0; }
 
-.nav .open > a { background: #f8f8f8; border-color: #b295b1; color: black; }
+.nav .open > a { background: #f8f8f8; border-color: #b295b1; color: #545454; }
 .nav .open > a:hover, .nav .open > a:focus { background: #b295b1; border-color: #b295b1; color: #fff; }
 
 ul.navbar-nav li a i { line-height: 35px; color: #aaa; }
@@ -161,11 +170,11 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
 	-moz-box-shadow: 0 6px 10px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, .15); box-shadow: 0 6px 10px rgba(0, 0, 0, .15);
 }
 
-.dropdown-menu > .active > a { background: #fff; color: black; }
+.dropdown-menu > .active > a { background: #fff; color: #545454; }
 .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus { background: #f8f8f8; color: #b295b1; }
 
 ul.navbar-nav li .dropdown-menu a { padding-top: 15px; padding-bottom: 15px; }
-ul.navbar-nav li.active .dropdown-menu a { background: #fff; color: black; border: 0; }
+ul.navbar-nav li.active .dropdown-menu a { background: #fff; color: #545454; border: 0; }
 ul.navbar-nav li.active .dropdown-menu a:hover, 
 ul.navbar-nav li.active .dropdown-menu a:focus { background: #b295b1; color: #fff; border: 0; }
 
@@ -283,7 +292,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 .presentation-container h1 {
     font-family: 'Satisfy-Regular';
     font-size: 40px;
-    color: black;
+    color: #545454;
     font-weight: bold;
 }
 
@@ -310,7 +319,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     background: #fff;
     font-family: 'Satisfy-Regular';
     font-size: 35px;
-    color: black;
+    color: #545454;
     font-weight: bold;
 }
 
@@ -329,7 +338,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 .service .service-icon {
     font-size: 50px;
     line-height: 50px;
-    color: black;
+    color: #545454;
 }
 
 .service .service-icon i { vertical-align: middle; }
@@ -338,7 +347,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     margin-top: 13px;
     font-family: 'SofiaProLight';
     font-size: 18px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -367,7 +376,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     background: #fff;
     font-family: 'Satisfy-Regular';
     font-size: 35px;
-    color: black;
+    color: #545454;
     font-weight: bold;
 }
 
@@ -398,7 +407,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     padding-right: 15px;
     font-family: 'Satisfy-Regular';
     font-size: 25px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
@@ -430,7 +439,7 @@ footer {
     margin-top: 20px;
     font-family: 'Satisfy-Regular';
     font-size: 25px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
@@ -468,7 +477,7 @@ footer {
 
 .footer-border {
     margin-top: 10px;
-    border-top: 1px dotted black;
+    border-top: 1px dotted #545454;
 }
 
 .footer-copyright {
@@ -481,7 +490,7 @@ footer {
     margin-top: 5px;
     text-align: right;
 }
-.footer-social a { margin: 0 0 0 10px; font-size: 26px; color: black; }
+.footer-social a { margin: 0 0 0 10px; font-size: 26px; color: #545454; }
 .footer-social a:hover, .footer-social a:focus { color: #b295b1; }
 
 
@@ -502,7 +511,7 @@ footer {
     margin-left: 10px;
     font-family: 'Satisfy-Regular';
     font-size: 40px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
     vertical-align: middle;
@@ -541,7 +550,7 @@ footer {
     margin-top: 25px;
     font-family: 'SofiaProLight';
     font-size: 16px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -568,7 +577,7 @@ footer {
     background: #fff;
     font-family: 'Satisfy-Regular';
     font-size: 35px;
-    color: black;
+    color: #545454;
     font-weight: bold;
 }
 
@@ -597,7 +606,7 @@ footer {
     padding-right: 15px;
     font-family: 'SofiaProLight';
     font-size: 18px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -627,7 +636,7 @@ footer {
     margin-top: 25px;
     font-family: 'SofiaProLight';
     font-size: 16px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -687,7 +696,7 @@ footer {
     margin-top: 25px;
     font-family: 'SofiaProLight';
     font-size: 16px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -714,7 +723,7 @@ footer {
     margin-top: 25px;
     font-family: 'SofiaProLight';
     font-size: 16px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -784,7 +793,7 @@ footer {
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
-.portfolio-filters a { color: black; }
+.portfolio-filters a { color: #545454; }
 .portfolio-filters a:hover, .portfolio-filters a.active { color: #b295b1; }
 
 .portfolio-box {
@@ -837,7 +846,7 @@ footer {
     margin-top: 20px;
     font-family: 'SofiaProLight';
     font-size: 18px;
-    color: black;
+    color: #545454;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -866,7 +875,7 @@ footer {
     background: #fff;
     font-family: 'Satisfy-Regular';
     font-size: 35px;
-    color: black;
+    color: #545454;
     font-weight: bold;
 }
 
@@ -889,7 +898,7 @@ footer {
 	background: #eee;
 	font-family: 'SofiaProLight';
 	font-size: 42px;
-	color: black;
+	color: #545454;
     line-height: 54px;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
@@ -902,7 +911,7 @@ footer {
 .pricing-1-box-price span {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: black;
+	color: #545454;
     line-height: 30px;
     font-style: normal;
     text-shadow: none;
@@ -918,7 +927,7 @@ footer {
 	background: #eee;
 	font-family: 'SofiaProLight';
 	font-size: 16px;
-	color: black;
+	color: #545454;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -936,7 +945,7 @@ footer {
 	background: #e8e8e8;
 	font-family: 'SofiaProLight';
 	font-size: 14px;
-	color: black;
+	color: #545454;
     line-height: 30px;
     font-weight: bold;
     text-transform: uppercase;
