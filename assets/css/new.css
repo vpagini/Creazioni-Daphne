@@ -70,7 +70,7 @@
     margin-top: 5px;
     margin-bottom: 10px;
     background: #b295b1;
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .squareButton:hover{
@@ -133,6 +133,17 @@ h1, h2, h3, h4, h5{
     display: inline-block;
     width: 200px;
     height: 200px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+}
+
+.marginTop40Bottom0 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.marginTop30 {
+    margin-top:  30px;
+}
+
+.marginBottom40 {
+    margin-bottom: 40px;
 }
