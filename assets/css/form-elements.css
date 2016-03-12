@@ -7,7 +7,7 @@ textarea {
     background: none;
     border: 1px solid #ddd;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     color: #888;
     font-style: italic;
@@ -36,7 +36,7 @@ button.btn {
     background: #b295b1;
     border: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 30px;
     color: #fff;

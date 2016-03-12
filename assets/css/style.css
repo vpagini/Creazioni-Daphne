@@ -9,14 +9,27 @@
  */
 
 @import url(https://fonts.googleapis.com/css?family=Quicksand:700,400);
+@font-face {
+    font-family: 'SofiaProLight';
+    src: url('../font/SofiaProLight.otf')
+}
+
+@font-face {
+    font-family: 'Satisfy-Regular';
+    src: url('../font/Satisfy-Regular.ttf') format('truetype');
+}
+
+
+
 
 body {
     background: #fff;
     text-align: center;
+    font-family: 'SofiaProLight';
 /*    font-family: 'Open Sans', sans-serif;*/
-    font-family: 'Quicksand', sans-serif;
-    color: #888;
-    font-size: 12px;
+/*    font-family: 'Quicksand', sans-serif; */
+    color: #5d5d5d;
+    font-size: 15px;
 }
 
 .violet { color: #b295b1; }
@@ -26,13 +39,13 @@ a {
     text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-a:hover, a:focus { color: #888; text-decoration: none; }
+a:hover, a:focus { color: #5d5d5d; text-decoration: none; }
 
 strong { font-weight: bold; }
 
 img { max-width: 100%; }
 
-h1, h2, h3, h4 { font-family: 'Lobster', cursive; }
+h1, h2, h3, h4 { font-family: 'Satisfy-Regular'; }
 h1, h2 { line-height: 15px; }
 h3, h4 { line-height: 20px; }
 
@@ -126,8 +139,8 @@ a.big-link-3:active {
 }
 
 ul.navbar-nav {
-	font-size: 14px;
-	color: #888;
+	font-size: 18px;
+	color: #5d5d5d;
 	text-transform: uppercase;
 }
 
@@ -210,7 +223,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     padding: 10px 20px;
     background: #1d1d1d; /* browsers that don't support rgba */
     background: rgba(0, 0, 0, .7);
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     color: #eaeaea;
     text-align: left;
@@ -247,8 +260,8 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 .slider-2-text h1 {
 	padding-left: 30px;
 	padding-right: 30px;
-	font-family: 'Lobster', cursive;
-    font-size: 30px;
+	font-family: 'Satisfy-Regular';
+    font-size: 40px;
     color: #fff;
     font-weight: bold;
 }
@@ -268,8 +281,8 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 }
 
 .presentation-container h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
+    font-family: 'Satisfy-Regular';
+    font-size: 40px;
     color: #5d5d5d;
     font-weight: bold;
 }
@@ -295,8 +308,8 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     width: 200px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+    font-family: 'Satisfy-Regular';
+    font-size: 35px;
     color: #5d5d5d;
     font-weight: bold;
 }
@@ -323,8 +336,8 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 
 .service h3 {
     margin-top: 13px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'SofiaProLight';
+    font-size: 18px;
     color: #5d5d5d;
     font-weight: bold;
     text-transform: uppercase;
@@ -352,8 +365,8 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+    font-family: 'Satisfy-Regular';
+    font-size: 35px;
     color: #5d5d5d;
     font-weight: bold;
 }
@@ -383,11 +396,10 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Satisfy-Regular';
+    font-size: 25px;
     color: #5d5d5d;
     font-weight: bold;
-    text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
@@ -415,11 +427,10 @@ footer {
 
 .footer-box h4 {
     margin-top: 20px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Satisfy-Regular';
+    font-size: 25px;
     color: #5d5d5d;
     font-weight: bold;
-    text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
@@ -469,7 +480,7 @@ footer {
     margin-top: 5px;
     text-align: right;
 }
-.footer-social a { margin: 0 0 0 10px; font-size: 26px; color: #888; }
+.footer-social a { margin: 0 0 0 10px; font-size: 26px; color: #5d5d5d; }
 .footer-social a:hover, .footer-social a:focus { color: #b295b1; }
 
 
@@ -488,8 +499,8 @@ footer {
 .page-title-container h1 {
     display: inline;
     margin-left: 10px;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+    font-family: 'Satisfy-Regular';
+    font-size: 40px;
     color: #5d5d5d;
     font-weight: bold;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
@@ -499,7 +510,7 @@ footer {
 .page-title-container p {
     display: inline;
     margin-left: 5px;
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     vertical-align: middle;
 }
@@ -527,7 +538,7 @@ footer {
 
 .about-us-text h3 {
     margin-top: 25px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'SofiaProLight';
     font-size: 16px;
     color: #5d5d5d;
     font-weight: bold;
@@ -537,7 +548,7 @@ footer {
 
 .about-us-text p {
     line-height: 28px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 /***** Meet our team *****/
@@ -554,8 +565,8 @@ footer {
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+    font-family: 'Satisfy-Regular';
+    font-size: 35px;
     color: #5d5d5d;
     font-weight: bold;
 }
@@ -583,8 +594,8 @@ footer {
     margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'SofiaProLight';
+    font-size: 18px;
     color: #5d5d5d;
     font-weight: bold;
     text-transform: uppercase;
@@ -613,7 +624,7 @@ footer {
 
 .contact-us-container h3 {
     margin-top: 25px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'SofiaProLight';
     font-size: 16px;
     color: #5d5d5d;
     font-weight: bold;
@@ -623,7 +634,7 @@ footer {
 
 .contact-us-container p {
     line-height: 28px;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .contact-form {
@@ -641,7 +652,7 @@ footer {
 
 .contact-form input[type="text"] { width: 95%; height: 34px; }
 .contact-form textarea { width: 95%; height: 170px; padding-top: 6px; padding-bottom: 6px; }
-.contact-form label { font-size: 13px; font-weight: 400; }
+.contact-form label { font-size: 18px; font-weight: 400; }
 .contact-form label .error-label { font-style: normal }
 .contact-form button { margin-top: 5px; padding: 0 45px; }
 
@@ -673,7 +684,7 @@ footer {
 
 .services-full-width-text h3 {
     margin-top: 25px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'SofiaProLight';
     font-size: 16px;
     color: #5d5d5d;
     font-weight: bold;
@@ -683,7 +694,7 @@ footer {
 
 .services-full-width-text p {
     line-height: 28px;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /***** Services half width text *****/
@@ -700,7 +711,7 @@ footer {
 
 .services-half-width-text h3 {
     margin-top: 25px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'SofiaProLight';
     font-size: 16px;
     color: #5d5d5d;
     font-weight: bold;
@@ -710,7 +721,7 @@ footer {
 
 .services-half-width-text p {
     line-height: 28px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 /***** Call to action *****/
@@ -763,7 +774,7 @@ footer {
 .portfolio-filters {
 	padding-top: 35px;
 	padding-bottom: 10px;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'SofiaProLight';
     font-size: 16px;
     color: #5d5d5d;
     font-weight: bold;
@@ -823,8 +834,8 @@ footer {
 .portfolio-box-text h3 {
 	cursor: pointer;
     margin-top: 20px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'SofiaProLight';
+    font-size: 18px;
     color: #5d5d5d;
     font-weight: bold;
     text-transform: uppercase;
@@ -852,8 +863,8 @@ footer {
     width: 160px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+    font-family: 'Satisfy-Regular';
+    font-size: 35px;
     color: #5d5d5d;
     font-weight: bold;
 }
@@ -875,7 +886,7 @@ footer {
 .pricing-1-box-price {
 	padding: 20px 0 7px 0;
 	background: #eee;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'SofiaProLight';
 	font-size: 42px;
 	color: #5d5d5d;
     line-height: 54px;
@@ -890,7 +901,7 @@ footer {
 .pricing-1-box-price span {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #888;
+	color: #5d5d5d;
     line-height: 30px;
     font-style: normal;
     text-shadow: none;
@@ -904,7 +915,7 @@ footer {
 	margin-bottom: 0;
 	padding: 10px 20px;
 	background: #eee;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'SofiaProLight';
 	font-size: 16px;
 	color: #5d5d5d;
 	font-weight: bold;
@@ -922,7 +933,7 @@ footer {
 	margin-bottom: 2px;
 	padding: 10px 20px;
 	background: #e8e8e8;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'SofiaProLight';
 	font-size: 14px;
 	color: #5d5d5d;
     line-height: 30px;
