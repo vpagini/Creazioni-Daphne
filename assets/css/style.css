@@ -8,11 +8,13 @@
  *
  */
 
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 
 body {
     background: #fff;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+/*    font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
     color: #888;
     font-size: 12px;
 }
