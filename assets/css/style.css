@@ -8,7 +8,7 @@
  *
  */
 
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:700,400);
 
 body {
     background: #fff;
@@ -47,7 +47,7 @@ a.big-link-1 {
     padding: 5px 22px;
     background: #b295b1;
     color: #fff;
-    font-style: italic;
+    font-style: normal;
     text-decoration: none;
     -moz-box-shadow: 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
     -webkit-box-shadow: 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
@@ -97,7 +97,7 @@ a.big-link-3 {
     background: #b295b1;
     font-size: 18px;
     color: #fff;
-    font-style: italic;
+    font-style: normal;
     line-height: 24px;
     text-decoration: none;
     -moz-box-shadow: 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
@@ -214,7 +214,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
     line-height: 24px;
     color: #eaeaea;
     text-align: left;
-    font-style: italic;
+    font-style: normal;
 }
 
 .flex-direction-nav a {
@@ -257,7 +257,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 	padding-left: 30px;
 	padding-right: 30px;
 	font-size: 18px;
-    font-style: italic;
+    font-style: normal;
 }
 
 
@@ -276,7 +276,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 
 .presentation-container p {
     font-size: 18px;
-    font-style: italic;
+    font-style: normal;
 }
 
 
@@ -395,7 +395,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 	padding-left: 15px;
     padding-right: 15px;
     line-height: 24px;
-    font-style: italic;
+    font-style: normal;
 }
 
 
@@ -500,7 +500,7 @@ footer {
     display: inline;
     margin-left: 5px;
     font-size: 14px;
-    font-style: italic;
+    font-style: normal;
     vertical-align: middle;
 }
 
@@ -595,7 +595,7 @@ footer {
 	padding-left: 15px;
     padding-right: 15px;
     line-height: 24px;
-    font-style: italic;
+    font-style: normal;
 }
 
 .team-social a { margin: 0 5px; font-size: 26px; }
@@ -642,7 +642,7 @@ footer {
 .contact-form input[type="text"] { width: 95%; height: 34px; }
 .contact-form textarea { width: 95%; height: 170px; padding-top: 6px; padding-bottom: 6px; }
 .contact-form label { font-size: 13px; font-weight: 400; }
-.contact-form label .error-label { font-style: italic }
+.contact-form label .error-label { font-style: normal }
 .contact-form button { margin-top: 5px; padding: 0 45px; }
 
 /***** Google map *****/
@@ -741,7 +741,7 @@ footer {
     padding-left: 25px;
     line-height: 30px;
     font-size: 18px;
-    font-style: italic;
+    font-style: normal;
 }
 
 .call-to-action-text .call-to-action-button {
@@ -833,7 +833,7 @@ footer {
 
 .portfolio-box-text p {
     line-height: 24px;
-    font-style: italic;
+    font-style: normal;
 }
 
 
@@ -892,7 +892,7 @@ footer {
 	font-size: 14px;
 	color: #888;
     line-height: 30px;
-    font-style: italic;
+    font-style: normal;
     text-shadow: none;
 }
 .pricing-1-box-best .pricing-1-box-price span {
