@@ -149,5 +149,38 @@ h1, h2, h3, h4, h5{
 }
 
 .par20 {
-    font-size: 20px !important;
+    font-size: 17px !important;
+}
+
+.gardenList i {
+    color: #7EAE9B;
+    font-size: 25px;
+}
+
+.gardenList {
+    font-family: 'Special Elite';
+    font-size: 22px;
+    line-height: 40px;
+}
+.eventsList {
+    font-family: 'Satisfy-Regular';
+    font-size: 22px;
+    line-height: 40px;
+}
+.eventsList i {
+    color: #b295b1;
+}
+.center {
+    width: 54%;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.brush {
+    background-image: url(../../roller.jpg);
+    background-attachment:local;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 }

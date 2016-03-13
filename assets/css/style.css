@@ -8,7 +8,6 @@
  *
  */
 
-@import url(https://fonts.googleapis.com/css?family=Quicksand:700,400);
 @font-face {
     font-family: 'SofiaProLight';
     src: url('../font/SofiaProLight.otf')
@@ -18,7 +17,14 @@
     font-family: 'Satisfy-Regular';
     src: url('../font/Satisfy-Regular.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'Flux';
+    src: url('../font/Flux_Architect_Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Special Elite';
+    src: url('../font/SpecialElite.ttf') format('truetype');
+}
 
 
 
