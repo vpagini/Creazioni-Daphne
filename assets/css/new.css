@@ -1,19 +1,4 @@
-@media (min-width: 768px) and (max-width: 991px) {
-    #first 
-    {
-        display: block !important;
-        width: 24% !important;
-        margin-left: 38% !important;
-        margin-right: 38% !important; 
-    }
-    #second 
-    {
-        display: block !important;
-        width: 91%;
-        margin-left: auto !important;
-        margin-right: auto !important;    
-    }
-}
+
 #homeheadlines { 
     font-family: 'Satisfy-Regular';
 }
@@ -158,29 +143,44 @@ h1, h2, h3, h4, h5{
 }
 
 .gardenList {
-    font-family: 'Special Elite';
-    font-size: 22px;
+    font-family: 'Flux';
+    font-size: 18px;
     line-height: 40px;
+    width: 600px;
+    margin: auto;
 }
 .eventsList {
     font-family: 'Satisfy-Regular';
-    font-size: 22px;
+    font-size: 25px;
     line-height: 40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .eventsList i {
     color: #b295b1;
 }
-.center {
-    width: 54%;
-    margin-left: 23%;
-    margin-right: 23%;
+.listCenter {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .brush {
-    background-image: url(../../roller.jpg);
+    background-image: url(../../stroke.png);
     background-attachment:local;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.8;
+}
+.white a {
+    color: white !important;
+}
+.marginTop25 {
+    margin-top: 25px;
 }

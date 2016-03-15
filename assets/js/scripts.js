@@ -62,7 +62,7 @@ jQuery(document).ready(function() {
 	/*
 	    Google maps
 	*/
-	var position = new google.maps.LatLng(45.067883, 7.687231);
+	var position = new google.maps.LatLng(45.633969, 12.254525);
     $('.map').gmap({'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
             var self = this;
             self.addMarker({'position': this.get('map').getCenter() });	
@@ -138,7 +138,7 @@ jQuery(document).ready(function() {
                 }
                 if(json.nameMessage == '' && json.emailMessage == '' && json.messageMessage == '') {
                 	form.fadeOut('fast', function() {
-                		form.parent('.contact-form').append('<p><span class="violet">Thanks for contacting us!</span> We will get back to you very soon.</p>');
+                		form.parent('.contact-form').append('<p><span class="violet">Grazie per averci contattato!</span>Vi risponderemo al più presto.<br><span class="violet">Thanks for contacting us!</span> We will get back to you very soon.</p>');
                     });
                 }
             }
