@@ -32,7 +32,7 @@ if($_POST) {
     if($clientName != '' && isEmail($clientEmail) && $message != '') {
         // Send email
 	$headers = "From: " . $clientName . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
-	mail($emailTo, $subject . ' (creazionidapne.org)', $message, $headers);
+	mail($emailTo, $subject . ' (creazionidaphne.org)', $message, $headers);
     }
 
     echo json_encode($array);
