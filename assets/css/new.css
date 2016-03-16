@@ -145,9 +145,9 @@ h1, h2, h3, h4, h5{
 
 .gardenList {
     font-family: 'Flux';
-    font-size: 18px;
-    line-height: 40px;
-    width: 600px;
+    font-size: 24px;
+   line-height: 40px;
+   /* width: 600px;*/
     margin: auto;
 }
 .eventsList {
@@ -172,12 +172,19 @@ h1, h2, h3, h4, h5{
 }
 
 .brush {
-    background-image: url(../../stroke.png);
+  color: white;
+    /*background-image: url(../../stroke.png);
     background-attachment:local;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 0.8;*/
+    border-style: solid;
+border-width: 67px 111px 72px 121px;
+-moz-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
+-webkit-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
+-o-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
+border-image: url(../../assets/img/40.png) 67 111 72 121 fill repeat;
 }
 .white a {
     color: white !important;
@@ -195,4 +202,14 @@ h1, h2, h3, h4, h5{
 
 #myCarousel {
     margin-top: 10px !important;
+}
+
+
+
+
+
+.boxed {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 3px 5px;
+    margin-bottom: 30px;
 }
