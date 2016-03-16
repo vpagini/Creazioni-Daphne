@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5{
 }
 
 .par20 {
-    font-size: 17px !important;
+    font-size: 17px;
 }
 
 .gardenList i {
@@ -184,4 +184,15 @@ h1, h2, h3, h4, h5{
 }
 .marginTop25 {
     margin-top: 25px;
+}
+.bigCenterText h3{
+    line-height: 150px;
+    text-align: left;
+    color: #b295b1;
+    font-size: 40px;
+    
+}
+
+#myCarousel {
+    margin-top: 10px !important;
 }

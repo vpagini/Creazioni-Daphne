@@ -48,16 +48,6 @@ jQuery(document).ready(function() {
 		}
 	});
 	
-	/*
-	    Flickr feed
-	*/
-	$('.flickr-feed').jflickrfeed({
-        limit: 8,
-        qstrings: {
-            id: '52617155@N08'
-        },
-        itemTemplate: '<a href="{{link}}" target="_blank" rel="nofollow"><img src="{{image_s}}" alt="{{title}}" /></a>'
-    });
 	
 	/*
 	    Google maps
