@@ -1,2 +1,3 @@
 - fare immagine con scritte colorate (risoluzione scelta per le altre 13:9)
 - abbassare la risoluzione delle immagini con ris. troppo alta (es. sara) x alleggerire caricamento pagine
+- sistemare footer che va sopra a immagini in portfolio
