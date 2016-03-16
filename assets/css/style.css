@@ -161,13 +161,14 @@ ul.navbar-nav {
 }
 
 ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-top: 5px solid #fff; color: #545454; }
-ul.navbar-nav li.active a { background: #f8f8f8; border-color: #b295b1; color: #545454; }
 
+ul.navbar-nav li.active a { background: #f8f8f8; border-color: #b295b1; color: #545454; }
 ul.navbar-nav li a:hover, ul.navbar-nav li a:focus { background: #b295b1; border-color: #b295b1; color: #fff; outline: 0; }
+
 /* Green navbar */
 ul.green-nav li.active a { background: #f8f8f8; border-color: #7EAE9B; color: #545454; }
-
-ul.green-nav li a:hover, ul.navbar-nav li a:focus { background: #7EAE9B; border-color: #7EAE9B; color: #fff; outline: 0; }
+ul.green-nav li a:hover, ul.green-nav li a:focus { background: #7EAE9B; border-color: #7EAE9B; color: #fff; outline: 0; }
+/*end*/
 
 .nav .open > a { background: #f8f8f8; border-color: #b295b1; color: #545454; }
 .nav .open > a:hover, .nav .open > a:focus { background: #b295b1; border-color: #b295b1; color: #fff; }
@@ -206,13 +207,9 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 
 .slider-container {
     background: #B295B1 url(../img/pattern.jpg) left top repeat;
-    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
-    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
 }
 
 .slider {
-
 	padding-left: 0px;
 	padding-right: 0px;
 }

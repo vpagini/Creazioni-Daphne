@@ -138,7 +138,7 @@ jQuery(document).ready(function() {
                 }
                 if(json.nameMessage == '' && json.emailMessage == '' && json.messageMessage == '') {
                 	form.fadeOut('fast', function() {
-                		form.parent('.contact-form').append('<p><span class="violet">Grazie per averci contattato!</span>Vi risponderemo al più presto.<br><span class="violet">Thanks for contacting us!</span> We will get back to you very soon.</p>');
+                		form.parent('.contact-form').append('<p><span class="violet">Grazie per averci contattato!</span> Vi risponderemo al più presto.<br><span class="violet">Thanks for contacting us!</span> We will get back to you very soon.</p>');
                     });
                 }
             }

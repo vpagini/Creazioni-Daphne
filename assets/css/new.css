@@ -35,9 +35,10 @@
 
 .services-full-width-text h3, .services-half-width-text h3 {
     margin-top: 0px !important;
-    font-family: 'Lobster', cursive !important;
+    font-family: 'Satisfy-Regular' !important;
     font-size: 25px !important;
-    text-transform: capitalize!important;
+    line-height: 35px !important;
+    text-transform: capitalize! important;
     margin-bottom: 12px !important;
 }
 
