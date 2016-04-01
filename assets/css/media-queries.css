@@ -5,12 +5,12 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-	
-	.portfolio-box { width: 205px; }
-	
-	.testimonial-list .testimonial-image { width: 12%; }
-	.testimonial-list .testimonial-text { width: 88%; }
-	
+	.bigCenterText {
+        margin-top: 15px;
+    }
+    .bigText h3{
+        line-height: 100px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -28,21 +28,37 @@
         margin-left: auto !important;
         margin-right: auto !important;    
     }
-    
-    .bigCenterText h3{
+    .bigCenterText h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .bigCenterText p {
+        font-size: 16px;
+        text-align: left;
+    }
+    .bigCenterText{
+        margin-top: 0px;
+    }
+    .bigText h3{
         font-size: 30px;
         line-height: 70px;
     }
-    
 	ul.navbar-nav li a { padding-left: 15px; padding-right: 15px; }
-	
-    .portfolio-box { width: 210px; }
-
 }
 @media (max-width: 991px) {
     .img-smaller img, .thumb{
         width: 170px; 
         height: 170px;
+    }
+    .bigCenterText h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bigText h3 {
+        text-align: center;
+        font-size: 30px; 
+        line-height: 50px;
     }
 }
 @media (max-width: 860px) {
@@ -60,6 +76,9 @@
 }
 
 @media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
 	
 	.navbar>.container .navbar-brand { margin-left: 15px; }
 	.navbar-collapse { border: 0; }
@@ -88,9 +107,10 @@
        /* width: 550px;*/
         line-height: 30px;
     }
-    .bigCenterText h3 {
+    
+    .bigCenterText p {
+        font-size: 16px;
         text-align: center;
-        line-height: 35px;
     }
 }
 @media (max-width: 600px) {
@@ -149,6 +169,7 @@
     .presentation-container p, .par20 {
         font-size: 16px;
     }   
+    
 }
 @media (max-width: 360px) {
     .eventsList{

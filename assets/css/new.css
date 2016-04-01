@@ -51,6 +51,7 @@
 }
 
 .squareButton {
+    font-family: 'SofiaProLight' !important;
 	display: inline-block;
     padding: 7px 25px;
     margin-top: 5px;
@@ -65,7 +66,7 @@
 }
 .squareButton a {
     color: #fff; 
-    font-family: 'Droid Sans', sans-serif;
+/*    font-family: 'Droid Sans', sans-serif;*/
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
@@ -73,8 +74,6 @@
 .squareButton a:hover{
     color: #fff;
 }
-
-
 
 .resizer {
     width: 100%; 
@@ -88,8 +87,6 @@
     max-width: 36vh !important;
     min-width: 121% !important;
 }
-
-
 
 .intro {
     margin-top: 30px;
@@ -135,9 +132,9 @@ h1, h2, h3, h4, h5{
 }
 
 .par20 {
-    font-size: 17px;
+    font-size: 20px;
+    margin-top: 20px;
 }
-
 .gardenList i {
     color: #7EAE9B;
     font-size: 25px;
@@ -146,7 +143,7 @@ h1, h2, h3, h4, h5{
 .gardenList {
     font-family: 'Flux';
     font-size: 24px;
-   line-height: 40px;
+    line-height: 40px;
    /* width: 600px;*/
     margin: auto;
 }
@@ -180,11 +177,11 @@ h1, h2, h3, h4, h5{
     background-repeat: no-repeat;
     opacity: 0.8;*/
     border-style: solid;
-border-width: 67px 111px 72px 121px;
--moz-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
--webkit-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
--o-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
-border-image: url(../../assets/img/40.png) 67 111 72 121 fill repeat;
+    border-width: 67px 111px 72px 121px;
+    -moz-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
+    -webkit-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
+    -o-border-image: url(../../assets/img/40.png) 67 111 72 121 repeat;
+    border-image: url(../../assets/img/40.png) 67 111 72 121 fill repeat;
 }
 .white a {
     color: white !important;
@@ -193,23 +190,49 @@ border-image: url(../../assets/img/40.png) 67 111 72 121 fill repeat;
     margin-top: 25px;
 }
 .bigCenterText h3{
-    line-height: 150px;
     text-align: left;
     color: #b295b1;
     font-size: 40px;
+    margin-bottom: 25px;
     
 }
+.bigCenterText p {
+    text-align: left; 
+    font-size: 18px;
+}
+.bigCenterText {
+    margin-top: 30px;
+}
 
+.bigText h3{
+    text-align: left;
+    color: #b295b1;
+    font-size: 40px;
+    line-height: 150px;
+}
 #myCarousel {
     margin-top: 10px !important;
 }
 
-
-
-
-
 .boxed {
-  background: rgba(0, 0, 0, 0.75);
-  padding: 3px 5px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 3px 5px;
     margin-bottom: 30px;
+}
+
+carousel-caption p {
+    font-size: 16px !important;
+    background-color: gray !important;
+}
+.lineContacts {
+    line-height: 40px !important;
+}
+table {
+    margin-top: 10px;
+}
+table th{
+    font-weight: normal;
+}
+table thead th{
+    font-weight: bold;
 }

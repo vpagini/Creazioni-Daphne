@@ -26,11 +26,10 @@ body {
 /*    font-family: 'Open Sans', sans-serif;*/
 /*    font-family: 'Quicksand', sans-serif; */
     color: black;
-    font-size: 15px;
+    font-size: 20px;
 
     outline: none !important;
 }
-
 a:hover, a:active, a:focus{
    outline:none !important;
 }
@@ -227,12 +226,12 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #b295b1
 .flex-caption {
     position: absolute;
     left: 0;
-    bottom: 20px;
-    width: 95%;
+    bottom: 0px;
+    width: 100%;
     padding: 10px 20px;
     background: #1d1d1d; /* browsers that don't support rgba */
-    background: rgba(0, 0, 0, .7);
-    font-size: 18px;
+    background: rgba(0, 0, 0, .6);
+    font-size: 16px;
     line-height: 24px;
     color: #eaeaea;
     text-align: left;
@@ -620,13 +619,8 @@ footer {
     text-align: left;
 }
 
-.contact-us-container h3 {
-    margin-top: 25px;
-    font-family: 'SofiaProLight';
-    font-size: 16px;
-    color: #545454;
-    font-weight: bold;
-    text-transform: uppercase;
+.contact-us-container h2 {
+    color: #b295b1;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
@@ -636,12 +630,12 @@ footer {
 }
 
 .contact-form {
-    padding-top: 25px;
+    margin-top: 30px;
     padding-bottom: 30px;
 }
 
 .contact-form form {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .contact-form form .form-group {
@@ -652,7 +646,7 @@ footer {
 .contact-form textarea { width: 95%; height: 170px; padding-top: 6px; padding-bottom: 6px; }
 .contact-form label { font-size: 18px; font-weight: 400; }
 .contact-form label .error-label { font-style: normal }
-.contact-form button { margin-top: 5px; padding: 0 45px; }
+.contact-form button { font-family: "Satisfy-Regular"; font-size: 20px; padding: 20 55; }
 
 /***** Google map *****/
 
@@ -663,7 +657,7 @@ footer {
 .contact-address .map {
     margin: 20px 0 40px 0;
     height: 300px;
-    border: 5px solid #f8f8f8;
+/*    border: 5px solid #f8f8f8;*/
 }
 
 
@@ -845,126 +839,4 @@ footer {
     font-style: normal;
 }
 
-
-/* ----- PRICING TABLES PAGE ----- */
-
-/* pricing 1 */
-.pricing-1-container {
-    margin-top: 47px;
-}
-
-.pricing-1-title {
-    background: url(../img/line.png) left center repeat-x;
-}
-
-.pricing-1-title h2 {
-    width: 160px;
-    margin: 0 auto;
-    background: #fff;
-    font-family: 'Satisfy-Regular';
-    font-size: 35px;
-    color: #545454;
-    font-weight: bold;
-}
-
-.pricing-1-box {
-	padding-top: 40px;
-	padding-bottom: 20px;
-}
-
-.pricing-1-box-inner {
-	background: #f8f8f8;
-}
-
-.pricing-1-box-inner:hover {
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.05), 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
-    -o-transition: all .5s; -moz-transition: all .5s; -webkit-transition: all .5s; -ms-transition: all .5s; transition: all .5s;
-}
-
-.pricing-1-box-price {
-	padding: 20px 0 7px 0;
-	background: #eee;
-	font-family: 'SofiaProLight';
-	font-size: 42px;
-	color: #545454;
-    line-height: 54px;
-    text-shadow: 0 1px 0 rgba(255,255,255,.7);
-}
-.pricing-1-box-best .pricing-1-box-price {
-	background: #b295b1;
-	color: #fff;
-	text-shadow: none;
-}
-
-.pricing-1-box-price span {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	color: #545454;
-    line-height: 30px;
-    font-style: normal;
-    text-shadow: none;
-}
-.pricing-1-box-best .pricing-1-box-price span {
-	color: #fff;
-}
-
-.pricing-1-box h3 {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding: 10px 20px;
-	background: #eee;
-	font-family: 'SofiaProLight';
-	font-size: 16px;
-	color: #545454;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-shadow: 0 1px 0 rgba(255,255,255,.7);
-}
-.pricing-1-box.pricing-1-box-best h3 {
-	background: #b295b1;
-	color: #fff;
-	text-shadow: none;
-}
-
-.pricing-1-box h4 {
-	margin-top: 0;
-	margin-bottom: 2px;
-	padding: 10px 20px;
-	background: #e8e8e8;
-	font-family: 'SofiaProLight';
-	font-size: 14px;
-	color: #545454;
-    line-height: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255,255,255,.7);
-}
-.pricing-1-box.pricing-1-box-best h4 {
-	background: #8d3b60;
-	color: #fff;
-	text-shadow: none;
-}
-
-.pricing-1-box-features ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.pricing-1-box-features li {
-	padding: 10px 20px;
-	border-bottom: 1px solid #eee;
-	font-size: 14px;
-    line-height: 18px;
-}
-
-.pricing-1-box-sign-up {
-	padding: 25px 0;
-}
-
-/* pricing 2 */
-.pricing-2-container {
-    margin-top: 30px;
-    padding-bottom: 40px;
-}
 
